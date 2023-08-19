@@ -29,7 +29,7 @@
 </div>
 
 #### 描述：
-无边框不规则透明高级登录界面(毕业设计时期开发)，背景使用ps临摹；软件登录、注册切换和退出时有淡入淡出动画，输入框有输入反馈，输入有误时有抖动交互动画反馈，详细可观看[**doc/dome.mp4**](https://github.com/hailhydra21/PyQt-Advanced-Interface/raw/master/doc/dome.mp4)
+无边框 + 不规则 + 半透明的高级登录界面(毕业设计时期开发)，背景使用ps临摹；软件登录、注册切换和退出时有淡入淡出动画，输入框有输入反馈，输入错误时伴有抖动交互动画反馈，详细可观看[**doc/dome.mp4**](https://github.com/hailhydra21/PyQt-Advanced-Interface/raw/master/doc/dome.mp4)
 
 <!-- ## 参考
 + [**title**:text](url) 
