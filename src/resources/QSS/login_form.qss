@@ -1,0 +1,114 @@
+#frametemp
+{
+   /* background-color: red; */
+}
+
+QLineEdit#lineEditAccount, QLineEdit#lineEditRegisterAccount
+{
+/*    border-bottom-width: 4px;
+    border-bottom-color: #f1f1f1; */
+    border: none;
+    font: bold 30px 'Raleway';
+    color: #404244;
+}
+
+QLineEdit#lineEditPassword, QLineEdit#lineEditRegisterPassword, QLineEdit#lineEditRegisterPasswordConfirm
+{
+/*    border-bottom-width: 4px;
+    border-bottom-color: #f1f1f1;
+    border-style:outset; */
+    border: none;
+    font: bold 30px 'Raleway';
+    color: #404244;
+    
+    /*掩码的图标和延迟显示时间*/
+    lineedit-password-character: 9835;
+    lineedit-password-mask-delay: 500;
+}
+
+/* labelWelcome字体样式设置 */
+QLabel#labelCentralInfo, QLabel#labelCentralInfo2
+{
+    font: 35px 'Raleway';
+    color: #a8a8a8;
+}
+
+QLabel#labelAccountLine, QLabel#labelPasswordLine
+{
+   /* background-color: #f1f1f1; */
+    background-color: #e0e0e0;
+}
+
+QLabel#labelRegisterAccountLine, QLabel#labelRegisterPasswordLine, QLabel#labelRegisterPasswordConfirmLine
+{
+    background-color: #e0e0e0;
+}
+
+QLabel#labelLine, QLabel#labelLine2
+{
+    background-color: #69e1fa;
+}
+
+QToolButton#toolButtonArrow1
+{
+    border-image:url(:/Images/Arrow1.png);
+}
+
+QToolButton#toolButtonArrow1:hover
+{
+    border-image:url(:/Images/Arrow1.png)3 3 3 3;
+}
+
+QToolButton#toolButtonArrow1::pressed
+{
+    border-image:url(:/Images/Arrow1.png)1 4 2 1;
+}
+
+QToolButton#toolButtonArrow2
+{
+    border-image:url(:/Images/Arrow2.png);
+}
+
+QToolButton#toolButtonArrow2:hover
+{
+    border-image:url(:/Images/Arrow2.png)3 3 3 3;
+}
+
+QToolButton#toolButtonArrow2:pressed
+{
+    border-image:url(:/Images/Arrow2.png)1 4 2 1;
+}
+
+QToolButton#toolButtonArrow3
+{
+    border-image:url(:/Images/Arrow3.png);
+}
+
+QToolButton#toolButtonArrow3:hover
+{
+    border-image:url(:/Images/Arrow3.png)3 3 3 3;
+}
+
+QToolButton#toolButtonArrow3:pressed
+{
+    border-image:url(:/Images/Arrow3.png)1 4 2 1;
+}
+
+QToolButton#toolButtonExit
+{
+    border-image:url(:/Images/Exit.png); 
+}
+
+QToolButton#toolButtonExit:hover
+{
+    border-image:url(:/Images/Exit.png)3 3 3 3;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 4px;
+}
+
+QToolButton#toolButtonExit:pressed
+{
+    border-image:url(:/Images/Exit.png)1 4 2 1; 
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 4px;
+}

@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Images/Arrow1.png</file>
+        <file>Images/Arrow1return.png</file>
+        <file>Images/Arrow2.png</file>
+        <file>Images/Arrow2return.png</file>
+        <file>Images/Arrow3.png</file>
+        <file>Images/Arrow3return.png</file>
+        <file>Images/exclamatory.png</file>
+        <file>Images/Exit.png</file>
+        <file>Images/hook.png</file>
+        <file>Images/login_background.png</file>
+        <file>Images/login_background1.png</file>
+    </qresource>
+</RCC>

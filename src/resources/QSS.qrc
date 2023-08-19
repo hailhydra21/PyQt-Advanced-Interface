@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>QSS/login_form.qss</file>
+    </qresource>
+</RCC>
